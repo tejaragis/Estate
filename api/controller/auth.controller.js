@@ -13,6 +13,7 @@ const signUP=async (req,res,next)=>{
     }
     catch(err){
         next(err);
+        console.log(err);
     }
 }
 const signIn=async(req,res,next)=>{
